@@ -1,0 +1,183 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol ,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: #0f2f44;
+    color: white;
+}
+header .row {
+    justify-content: space-between;
+}
+
+header .row span {
+    padding: 19px 0;
+    line-height: 0px;
+}
+
+/* nav */
+
+/* nav img {
+    justify-content: center;
+} */
+
+nav .row{
+    justify-content: space-between;
+    align-items: center;
+}
+nav .row ul li {
+    display: inline-block;
+    padding: 19px 19.5px;
+    line-height: 0px;
+}
+
+nav .row ul li a{
+    font-size: 16px;
+}
+
+nav .row ul li  :hover a{
+    background-color: rgb(255, 255, 255);
+}
+nav .row ul li  :hover {
+    background-color: rgb(255, 230, 0);
+}
+
+/* bnr */
+
+#banner{
+    background-image: url(../images/benner.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner .row {
+    align-items: center;
+    height: 600px;
+    width: 470px;
+}
+
+#banner .row .btn{
+    align-items: center;
+    display: flex;
+}
+#banner .row .btn button {
+    background-color: #8484b8;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#banner .row .btn button a {
+    width: 14px;
+    height: 14px;
+    color: rgb(255, 255, 255);
+}
+
+
+#banner h4{
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+
+#banner h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0f2f44;
+}
+#banner h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: #8484bf;
+}
+
+#banner p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #444444;
+}
+
+
+/* about us */
+
+#About{
+    margin-top: 50px;
+    display: block;
+}
+#About .container .row{
+    width: 100%;
+    height: 100%;
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+
+#About .container .row .about-cnt{
+    width: 50%;
+}
+
+#About .container .row .about-cnt{
+    padding: 100px 0;
+}
+
+#About .container .row .about-cnt .btn .km {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 20 px;
+    padding: 14px;
+    width: 144px;
+    margin: 7px;
+    color: #000000;
+    background-color: #ffc712;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:  500;
+}
+
+#About .container .row .btn button a {
+    width: 14px;
+    height: 14px;
+    color: rgb(0, 0, 0);
+}
+
+#About .container .row .about-cnt .btn  .rl{
+    border: 1;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 150px;
+    margin: 7px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+}
